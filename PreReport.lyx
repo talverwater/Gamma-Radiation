@@ -145,6 +145,37 @@ where E is energy.
 Answers to the mail questions:
 \end_layout
 
+\begin_layout Subsection
+***size of nucleus !!*** 
+\end_layout
+
+\begin_layout Subsection
+** protons neutrons mass spin magnetic moment charge
+\end_layout
+
+\begin_layout Subsection
+the force that want to destroy the nucleus is the electric force and what
+ keep it is strong force
+\end_layout
+
+\begin_layout Subsection
+radioactive - radiation stat ? what
+\end_layout
+
+\begin_layout Subsection
+the radiations 
+\begin_inset Formula $\alpha\beta\gamma$
+\end_inset
+
+ comes from fusion and fission reactions **how the radiation absorbed in
+ material ?*** only ionizing ??
+\end_layout
+
+\begin_layout Subsection
+which conservation lows occur in the interaction between gamma radiation
+ and the material ? .
+\end_layout
+
 \begin_layout Section
 Explantion to the mail concepts list
 \end_layout
@@ -243,7 +274,72 @@ metry and paring energy
 \begin_layout Subsubsection
 shell model - like the model of the atom but now the potential is not coloumb.
  still we have harmonic oscillator which the protns and neutrons can occupay.
- this model explains the number of protons and neutorns we find stable.
+ this model explains the number of protons and neutorns we find stable
+\end_layout
+
+\begin_layout Subsection
+nuclear fusion - two nucleus makes togather a new one and by the way can
+ be emitted some 
+\begin_inset Formula $\alpha\beta\gamma$
+\end_inset
+
+ radiation.
+ a photo example is the folder from wikipedia
+\end_layout
+
+\begin_layout Subsection
+nuclear fission - one nucleus seperates into two smaller one and it can
+ obserbe or emitt radiation
+\end_layout
+
+\begin_layout Subsection
+Stars nuclear process - in our sun mostly fusion of hydrogen to isotop 4
+\end_layout
+
+\begin_layout Subsection
+periodic table - o.k..
+ we know her
+\end_layout
+
+\begin_layout Subsection
+nuclear disasosiation - do you mean radioactivic materials ?
+\end_layout
+
+\begin_layout Subsection
+material interaction - 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ radiation can ionizes matreials by taking their electron out
+\begin_inset Newline newline
+\end_inset
+
+**** should read the report again and see what interaction can be in germanium
+ that makes him a decetor****
+\end_layout
+
+\begin_layout Subsection
+NP junction in germanium - ***Have to understand better why only one way
+ of voltage is ok and the other is not and how come that after the current
+ the junction stay the same*** *** is there is a threshold for the voltage
+ of the NP diode ??***
+\end_layout
+
+\begin_layout Subsection
+Germanium detector is an NP diode that only an electron who gets enough
+ energy can cross the barrier and produce current so we know there was 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ radiation
+\end_layout
+
+\begin_layout Subsection
+Ge
+\begin_inset Formula $\left(Li\right)$
+\end_inset
+
+ is Ge doped with lithium to create the area we want for the NP.
 \end_layout
 
 \end_body
