@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.7)  28 OCT 2017 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.7)  28 OCT 2017 21:40
 entering extended mode
 **./preperationreport.tex
 (preperationreport.tex
@@ -119,11 +119,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 17.
 
-Overfull \hbox (12.76561pt too wide) in paragraph at lines 30--30
-[]\OT1/cmr/bx/n/14.4 General sub-jects in nu-clear physics 
- []
-
-
 LaTeX Warning: Command \r invalid in math mode on input line 34.
 
 
@@ -132,40 +127,59 @@ Overfull \hbox (0.78038pt too wide) in paragraph at lines 40--41
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
-
+Overfull \hbox (12.48778pt too wide) in paragraph at lines 43--43
+[]\OT1/cmr/bx/n/12 Components of the nu-clues and their
  []
 
 [1{C:/Users/tsilv/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 
-] [2
-
 ]
-(preperationreport.aux) ) 
+Overfull \hbox (0.48409pt too wide) in paragraph at lines 73--74
+\OT1/cmr/m/n/10 Background ra-di-a-tion is the ion-iz-ing ra-di-a-tion present
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 83.
+
+Overfull \hbox (5.85204pt too wide) in paragraph at lines 86--89
+\OT1/cmr/m/n/10 are de-noted as $\OML/cmm/m/it/10 []$ \OT1/cmr/m/n/10 for an e
+lec-tron and $\OML/cmm/m/it/10 []$ \OT1/cmr/m/n/10 for a positron. 
+ []
+
+
+Overfull \hbox (2.59523pt too wide) in paragraph at lines 93--96
+\OT1/cmr/m/n/10 spon-ta-neously chang-ing from ex-hibit-ing Bose-Einstien
+ []
+
+[2] [3
+
+] (preperationreport.aux) ) 
 Here is how much of TeX's memory you used:
- 776 strings out of 493335
- 10898 string characters out of 3136681
- 75120 words of memory out of 3000000
- 4355 multiletter control sequences out of 15000+200000
- 7587 words of font info for 27 fonts, out of 3000000 for 9000
+ 782 strings out of 493335
+ 10976 string characters out of 3136681
+ 77120 words of memory out of 3000000
+ 4360 multiletter control sequences out of 15000+200000
+ 8510 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  24i,10n,32p,1176b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
-7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on preperationreport.pdf (2 pages, 126211 bytes).
+onts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on preperationreport.pdf (3 pages, 157133 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
+ 64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
