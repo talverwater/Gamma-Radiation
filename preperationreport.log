@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.7)  28 OCT 2017 22:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.7)  28 OCT 2017 22:21
 entering extended mode
 **./preperationreport.tex
 (preperationreport.tex
@@ -126,11 +126,6 @@ Overfull \hbox (0.78038pt too wide) in paragraph at lines 40--41
 \OT1/cmr/m/n/10 (found by Ruther-ford). Since Ruther-ford ex-per-i-ments
  []
 
-
-Overfull \hbox (12.48778pt too wide) in paragraph at lines 43--43
-[]\OT1/cmr/bx/n/12 Components of the nu-clues and their
- []
-
 [1{C:/Users/tsilv/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
@@ -169,7 +164,7 @@ pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on preperationreport.pdf (3 pages, 151886 bytes).
+Output written on preperationreport.pdf (3 pages, 151880 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
