@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.7)  28 OCT 2017 15:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.7)  28 OCT 2017 17:53
 entering extended mode
 **./preperationreport.tex
 (preperationreport.tex
@@ -140,16 +140,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--48
 
 
 
+] [2
+
 ]
 (preperationreport.aux) ) 
 Here is how much of TeX's memory you used:
- 775 strings out of 493335
- 10890 string characters out of 3136681
+ 776 strings out of 493335
+ 10898 string characters out of 3136681
  75120 words of memory out of 3000000
- 4354 multiletter control sequences out of 15000+200000
+ 4355 multiletter control sequences out of 15000+200000
  7587 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 24i,10n,32p,557b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 24i,10n,32p,1176b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
@@ -161,9 +163,9 @@ mr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
 b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on preperationreport.pdf (1 page, 117653 bytes).
+Output written on preperationreport.pdf (2 pages, 126211 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
+ 53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
