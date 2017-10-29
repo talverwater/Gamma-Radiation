@@ -2,6 +2,7 @@
 \usepackage[letterpaper, margin=1in]{geometry}
 \twocolumn
 \usepackage{stfloats}
+\usepackage{graphicx}
 %opening
 \title{Gamma Radiation preparation report}
 \author{Tal Silverwater}
@@ -83,6 +84,7 @@ There are 2 reasons why these particles are emitted (instead of protons, neutron
 
 2) $\alpha$ particles have really high binding energy. This means it will not tend to break apart. the result is that heavy elements have enough energy in them to create this particle while other models of decay require additional energy. \\
 The mechanism that explains $\alpha$ decay is quantum tunneling. In this process the $\alpha$ particle teleports out of the large nucleus to a point where the strong force is not strong enough to pull the $\alpha$ particle back, and then the electromagnetic force violently pushes the $\alpha$ particle away.
+Mathematically, the coulomb potential energy of the alpha particle (charge $2e$) in the field of the daughter nucleus (charge $Ze$) when $r>R$ is: $$U(r)=\frac{2Ze^2}{4\pi \epsilon_0r}$$ when $r<R$: $$U(r)=-U_0$$ ($U_0$ not critical). When adding that the probability to tunnel is: $$P=e^{-\frac{4\pi}{\hbar}\frac{Ze^2}{4\pi \epsilon_0}\frac{1}{\nu_\alpha}}$$ where $\nu_\alpha$ is the speed of the ejected alpha particle. From that we get that the mean life (half-life formula with e insted of 1/2) is: $$\tau=\frac{2R}{\nu_{in}}e^{\frac{4\pi}{\hbar}\frac{Ze^2}{4\pi \epsilon_0}\frac{1}{\nu_\alpha}}$$ where $\nu_{in}$ is the velocity of the $\alpha$ particle in the nucleus.
 
 \subsubsection{$\beta$ decay}
 
@@ -95,6 +97,18 @@ $p\rightarrow n+e^+\nu_e$. This decay can only happen inside nuclei when the abs
 
 $\gamma$ radiation is an electromagnetic wave with a frequency of more then $10^{19}Hz$.
 One source for $\gamma$ rays is $\gamma$ decay. When a heavy and/or unstable atom goes through $\alpha$ or $\beta$ decay, the resulting nucleus usually is in a high energy state. The nucleus then decays to a lower energy state while emitting a $\gamma$ ray photon. The emission takes $10^{-12}sec$.
+There are other sources of gamma radiation. For example: Cosmic rays, Cosmic rays, Gamma-ray bursts...
+
+\subsection{How does the spectrum look like}
+
+The spectrum for $\beta$ particles is broad because the neutrino can have different amounts of energy. \\ For alpha particles the spectrum (for one atom) are sharp lines (usually 1 of 2). These lines indicates the energy levels of the atoms that relese them. You can see Figure 1 for an illustration.
+\begin{figure}
+	\includegraphics[width=\linewidth]{Alpha1spec.png}
+	\caption{Intensity against alpha energy for four isotopes, note that the line width is narrow and the fine details can be seen}
+	\label{fig:Alpha spectrum}
+\end{figure}
+
+
 
 
 
