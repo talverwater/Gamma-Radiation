@@ -3,6 +3,13 @@
 \twocolumn
 \usepackage{stfloats}
 \usepackage{graphicx}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=cyan,
+}
 %opening
 \title{Gamma Radiation preparation report}
 \author{Tal Silverwater}
@@ -91,7 +98,7 @@ Mathematically, the coulomb potential energy of the alpha particle (charge $2e$)
 $\beta$ particles are high energy electrons ($\beta^-$) or positrons ($\beta^+$). 
 The emission process for a $\beta^-$ happens when an unstable atomic nucleus with an excess of neutrons converts a neutron into a proton while emitting an electron and a electron anti-neutrino $n\rightarrow p+e^-+\bar{\nu}_e$. This process is mediated by the weak interaction. The neutron turns into a proton through the emission of a virtual $W^-$ boson. At the quark level, $W^-$ emission turns a down quark into an up quark, turning a neutron into a proton. The virtual $W^-$ boson then decays into an electron and an antineutrino. This process happens in fission byproducats.\\
 The emission process for a $\beta^+$ is explained by\\
-$p\rightarrow n+e^+\nu_e$. This decay can only happen inside nuclei when the absolute value of the binding energy of the daughter nucleus is greater than that of the parent nucleus, i.e., the daughter nucleus is a lower-energy state.
+$p\rightarrow n+e^++\nu_e$. This decay can only happen inside nuclei when the absolute value of the binding energy of the daughter nucleus is greater than that of the parent nucleus, i.e., the daughter nucleus is a lower-energy state.
 
 \subsubsection{$\gamma$ decay}
 
@@ -101,12 +108,43 @@ There are other sources of gamma radiation. For example: Cosmic rays, Cosmic ray
 
 \subsection{How does the spectrum look like}
 
-The spectrum for $\beta$ particles is broad because the neutrino can have different amounts of energy. \\ For alpha particles the spectrum (for one atom) are sharp lines (usually 1 of 2). These lines indicates the energy levels of the atoms that relese them. You can see Figure 1 for an illustration.
+The spectrum for $\beta$ particles is broad because the neutrino can have different amounts of energy. A illustration can be seen in figure 1 \\ For alpha particles the spectrum (for one atom) are sharp lines (usually 1 of 2). These lines indicates the energy levels of the atoms that relese them. You can see Figure 2 for an illustration.
+\begin{figure}
+	\includegraphics[width=\linewidth]{beta-decay-spectrum.png}
+	\caption{The shape of this energy curve depends on what fraction of the reaction energy that is carried by the electron or neutrino.}
+	\label{fig:beta spectrum}
+\end{figure}
 \begin{figure}
 	\includegraphics[width=\linewidth]{Alpha1spec.png}
 	\caption{Intensity against alpha energy for four isotopes, note that the line width is narrow and the fine details can be seen}
 	\label{fig:Alpha spectrum}
 \end{figure}
+For gamma radiation we expect to get "delta-functions", but because of different effects concerning interactions with matter we will probably see noise (more on these effects later).
+
+\subsection{Interaction with matter}
+\subsubsection{$\alpha$ particles}
+
+There are different interaction of $\alpha$ particles with matter. One example is when a $\alpha$ particle hits a heavy nucleus and merges with it. This may result in a unstable atom which may break apart (a fission reaction).
+Another option is that the $\alpha$ particle collides with a different atom (can be air or surrounding metirial). With this model we can define the stoping power of a metrical.  The linear stopping power of material is defined as the ratio of the differential energy loss for the particle within the material to the corresponding differential path length: $$S(T)=-\frac{dT}{dx}=n_{ion}\bar{I}$$ where T is the kinetic energy of the charged particle, $n_{ion}$ is the number of electron-ion pairs formed per unit path length, and I denotes the average energy needed to ionize an atom in the medium. For charged particles, S increases as the particle velocity decreases. The classical expression that describes the specific energy loss is known as the Bethe formula (there in a non-relativistic formula, but here we have the relativistic one): $$S(T)=\frac{4\pi Q^2e^2nZ}{m\beta^2c^2}\left[ln\left(\frac{2mc^2\gamma^2\beta^2}{\bar{I}}\right)x-\beta^2\right]$$ In this expression, m is the rest mass of the electron, $\beta$ equals to v/c, what expresses the particle’s velocity relative to the speed of light, $\gamma$ is the Lorentz factor of the particle, Q equals to its charge, Z is the atomic number of the medium and n is the atoms density in the volume. 
+
+\subsubsection{$\beta$ particles}
+
+A $\beta$ particle can do a elastic interaction with a nucleus which can change the direction of the $\beta$ particle. This results in the particle zig-zaging around. They can also lose their energy from emitting electomagnetic radiation (a process known as Bremsstrahlung). Another method is when they move faster then the speed of light in the medium they're in. This causes electromagnetic radiation called Cherenkov radiation. $\beta^+$ particles can also annihilate with an electron.(There is an equation like Bethe formula for $\beta$ particles but is is very complicated. also there are equations for Bremsstrahlung and Cherenkov radiation, see \href{http://www.nuclear-power.net/nuclear-power/reactor-physics/interaction-radiation-matter/interaction-beta-radiation/}{Here})
+
+\section{$\gamma$ radiation interaction with matter}
+
+There are three kinds of interaction with matter:
+
+1) Photoelectric effect: when a high energy photon hits a material it can eject an electron from that material. That happens usually in the lower part of the $\gamma$ spectrum. The main equation that describes this interaction is: $$E_e=h\nu-E_b$$ where $E_e$ is the kinetic energy of the electron, h is Plank's constant, $\nu$ is the frequency of the of the light ($\gamma$ ray photon) and $E_b$ is the binding energy of the electron to the material (This equation is just an equation of conservation of energy).
+
+2) Compton scattering: this happens in intermediate energy's, when a $\gamma$ ray hits a atomic electron. This causes the $\gamma$ ray to scatter in a way such that the frequency depends on the scattering angle. The main equation is derived from the fact that for a photon $E=p_{photon}c=\frac{h}{\lambda}$. From conservation of momentum and energy we can get: $$\Delta \lambda =\lambda '-\lambda=\frac{h}{m_ec}(1-\cos(\theta))$$ where $\lambda$ is the initial wavelength of the photon, $\lambda'$ is the wavelength of the photon after scattering, h is Plank's constant, $m_e$ is the electron rest mass, c is the speed og light and $\theta$ is the scattering angle for the photon.
+
+3) At high energy the $\gamma$ ray photon can be converted to matter by creating an particle anti-particle pair (like an electron positron). For that to happen the energy of the photon needs to be above a threshold energy (for an electron positron pair that energy is $1.02Mev$). (This interaction also needs to conserve energy and momentum)
+
+\section{How does the detector work}
+
+
+
 
 
 
