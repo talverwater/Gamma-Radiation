@@ -139,14 +139,33 @@ There are three kinds of interaction with matter:
 
 2) Compton scattering: this happens in intermediate energy's, when a $\gamma$ ray hits a atomic electron. This causes the $\gamma$ ray to scatter in a way such that the frequency depends on the scattering angle. The main equation is derived from the fact that for a photon $E=p_{photon}c=\frac{h}{\lambda}$. From conservation of momentum and energy we can get: $$\Delta \lambda =\lambda '-\lambda=\frac{h}{m_ec}(1-\cos(\theta))$$ where $\lambda$ is the initial wavelength of the photon, $\lambda'$ is the wavelength of the photon after scattering, h is Plank's constant, $m_e$ is the electron rest mass, c is the speed og light and $\theta$ is the scattering angle for the photon.
 
-3) At high energy the $\gamma$ ray photon can be converted to matter by creating an particle anti-particle pair (like an electron positron). For that to happen the energy of the photon needs to be above a threshold energy (for an electron positron pair that energy is $1.02Mev$). (This interaction also needs to conserve energy and momentum)
+3) At high energy the $\gamma$ ray photon can be converted to matter by creating an particle anti-particle pair (like an electron positron). For that to happen the energy of the photon needs to be above a threshold energy (for an electron positron pair that energy is $1.02Mev$). (This interaction also needs to conserve energy and momentum)\\ 
+When analyzing the total effect we can characterize the medium to have a absorption coefficient $\mu$. The intensity of the radiation dissipates proportionally to the intensity: $$\frac{dI}{dx}=-\mu I$$ which gives: $$I(x)=I_0e^{-\mu x}$$ (x is the distance through the material)
 
 \section{How does the detector work}
+\subsection{p-n junction}
 
+A p–n junction is a boundary or interface between two types of semiconductor material, p-type and n-type, inside a single crystal of semiconductor. The "p" (positive) side contains an excess of holes, while the "n" (negative) side contains an excess of electrons. The p-n junction is created by doping, for example by ion implantation, diffusion of dopants, or by epitaxy (growing a layer of crystal doped with one type of dopant on top of a layer of crystal doped with another type of dopant). If two separate pieces of material were used, this would introduce a grain boundary between the semiconductors that would severely inhibit its utility by scattering the electrons and holes.
 
+\subsection{how do semicondoctor detectors \\ work}
+In semiconductor detectors, ionizing radiation is measured by the number of charge carriers set free in the detector material which is arranged between two electrodes, by the radiation. Ionizing radiation produces free electrons and holes. The number of electron-hole pairs is proportional to the energy of the radiation to the semiconductor. As a result, a number of electrons are transferred from the valence band to the conduction band, and an equal number of holes are created in the valence band. Under the influence of an electric field, electrons and holes travel to the electrodes, where they result in a pulse that can be measured in an outer circuit, as described by the Shockley-Ramo theorem. The holes travel in the opposite direction and can also be measured. As the amount of energy required to create an electron-hole pair is known, and is independent of the energy of the incident radiation, measuring the number of electron-hole pairs allows the intensity of the incident radiation to be determined.
 
+The energy required to produce electron-hole-pairs is very low compared to the energy required to produce paired ions in a gas detector. Consequently, in semiconductor detectors the statistical variation of the pulse height is smaller and the energy resolution is higher. As the electrons travel fast, the time resolution is also very good, and is dependent upon rise time. Compared with gaseous ionization detectors, the density of a semiconductor detector is very high, and charged particles of high energy can give off their energy in a semiconductor of relatively small dimensions. [copied from wikipedia]. 
 
+\subsection{Germanium detector}
 
+Germanium is used because it can be thick and there by absorb all $\gamma$ radiation that goes through the detctor. The purity of the germanium is very high. The detector needs to be colled down to low temperatures (using liquid nitrogen). 
+
+\section{Predicted response of \\ meserment}
+
+The number of electron hole pairs is $$n=\frac{E_e}{\epsilon}$$ ($\epsilon$ is the energy needed to create an electron hole pair). The semiconductor is held at high voltage which makes picking up the electron a more efficient process. The 3 different interactions described before for $\gamma$ radiation gives this figure 3.
+\begin{figure}
+	\includegraphics[width=\linewidth]{gamma-ray-spectrum.png}
+	\caption{expected $\gamma$ ray spectrum. The photoelectrically interacting photons transfer all their energy to the detector. The "continues" spectrum is form compton scattering. The two other peaks are from photons that originate from electromn positron annihilation.}
+	\label{fig:Effective gamma spectrum}
+\end{figure}
+
+\section{What happens if we put a \\ absorbing material between the source and the detector}
 
 
 
