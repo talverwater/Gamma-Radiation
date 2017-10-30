@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.7)  30 OCT 2017 12:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.7)  30 OCT 2017 13:42
 entering extended mode
 **"./prepration report.tex"
 ("prepration report.tex"
@@ -420,14 +420,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 103.
 
-<beta-decay-spectrum.png, id=130, 232.61906pt x 187.07391pt>
+<beta-decay-spectrum.png, id=150, 232.61906pt x 187.07391pt>
 File: beta-decay-spectrum.png Graphic file (type png)
 
 <use beta-decay-spectrum.png>
 Package pdftex.def Info: beta-decay-spectrum.png used on input line 113.
 (pdftex.def)             Requested size: 229.8775pt x 184.87546pt.
 
-<Alpha1spec.png, id=132, 982.67125pt x 600.2425pt>
+<Alpha1spec.png, id=152, 982.67125pt x 600.2425pt>
 File: Alpha1spec.png Graphic file (type png)
  <use Alpha1spec.png>
 Package pdftex.def Info: Alpha1spec.png used on input line 118.
@@ -502,7 +502,7 @@ Overfull \hbox (1.73393pt too wide) in paragraph at lines 153--154
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 159.
 
-<gamma-ray-spectrum.png, id=146, 490.83376pt x 294.72609pt>
+<gamma-ray-spectrum.png, id=166, 490.83376pt x 294.72609pt>
 File: gamma-ray-spectrum.png Graphic file (type png)
 
 <use gamma-ray-spectrum.png>
@@ -517,28 +517,41 @@ Overfull \hbox (12.77885pt too wide) in paragraph at lines 168--168
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 168.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 172.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 173.
+
+
+Overfull \hbox (1.78964pt too wide) in paragraph at lines 175--176
+\OT1/cmr/m/n/10 Radioactive el-e-ments are mainly orig-i-nat-ing from high
+ []
+
 [5 <./gamma-ray-spectrum.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
+<fusion-reaction.png, id=173, 188.20313pt x 268.00125pt>
+File: fusion-reaction.png Graphic file (type png)
+
+<use fusion-reaction.png>
+Package pdftex.def Info: fusion-reaction.png used on input line 182.
+(pdftex.def)             Requested size: 229.8775pt x 327.36996pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
+ [6 <./fusion-reaction.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
  ("prepration report.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
-
-
-Package rerunfilecheck Warning: File `"prepration report".out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"prepration report".out':
-(rerunfilecheck)             Before: 99537D0024E8DA0347265E869BDECBB3;1921
-(rerunfilecheck)             After:  12ABA2BF05C6551226FE1985BE35A5AE;1922.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 177.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
+Package rerunfilecheck Info: File `"prepration report".out' has not changed.
+(rerunfilecheck)             Checksum: 372D4A3FA572A56C084E7902FA1FCE94;2305.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
  ) 
 Here is how much of TeX's memory you used:
- 5655 strings out of 493335
- 84672 string characters out of 3136681
- 183418 words of memory out of 3000000
- 9113 multiletter control sequences out of 15000+200000
+ 5673 strings out of 493335
+ 84943 string characters out of 3136681
+ 183486 words of memory out of 3000000
+ 9123 multiletter control sequences out of 15000+200000
  8510 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,11n,32p,1308b,332s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -556,9 +569,9 @@ les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "prepration report.pdf" (5 pages, 424076 bytes).
+Output written on "prepration report.pdf" (6 pages, 474566 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 224 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 235 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
+ 269 words of extra memory for PDF output out of 10000 (max. 10000000)
 
