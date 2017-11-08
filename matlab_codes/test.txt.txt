@@ -1,0 +1,1 @@
+readSPE.m is a function that reads .spe files. needed for left system
